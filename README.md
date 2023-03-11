@@ -1,6 +1,6 @@
 # porfirievich parser use telegram
 
-<img src="https://img.shields.io/github/last-commit/ftdt800/MonopolyOneBot?style=for-the-badge">
+<img src="https://img.shields.io/github/last-commit/ftdt800/porfirievich-parser-tg-discord?style=for-the-badge">
 
 ### Установка и запуск
 1. Напишите СВОЙ хэш Telegram и идентификатор (проверьте на my.telegram.com )
