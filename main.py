@@ -4,7 +4,7 @@ import keyboard
 from keyboard import press
 from pyrogram import Client, types, filters, enums
 chat_id = 1019975265 # Don't edit
-app = Client(name='sessionon', api_id=ID_HERE, api_hash='HASH_HERE') #сюды надо писать
+app = Client(name='sessionon', api_id=ID_HERE, api_hash='HASH_HERE') #Write your api_id and api_hash here.
 def ctrl_key(key):
     keyboard.press(29)
     time.sleep(0.02)
@@ -23,7 +23,7 @@ async def main():
             ctrl_key(47)
             if not message.text == text:
                 press('enter')
-while 1==1:
+while True:
     keyboard.wait('Ctrl + C')
     text = pyperclip.paste()
     app.run(main())
